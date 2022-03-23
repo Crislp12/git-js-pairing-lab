@@ -24,4 +24,10 @@ function multiplesOfThreeOrFive () {
     
     
 }
- multiplesOfThreeOrFive()
+ multiplesOfThreeOrFive() 
+ 
+ function untilNum(n) {
+     for (let i = 1; i <= n; i ++) {
+         console.log(i)
+     }
+ } untilNum(40) 

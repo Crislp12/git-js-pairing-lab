@@ -31,3 +31,10 @@ function multiplesOfThreeOrFive () {
          console.log(i)
      }
  } untilNum(40) 
+ 
+ function multiplyBy(num, dep){
+     console.log ("--q5--")
+     return num * dep
+ }
+ 
+ console.log(multiplyBy(6,7))

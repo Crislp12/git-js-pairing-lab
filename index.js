@@ -83,3 +83,16 @@ function betweenTwentyAndFourty(bet){
 console.log(betweenTwentyAndFourty(30))
 
 
+
+function largest(n1, n2, n3) { 
+    console.log("Q10 ---")
+    
+ if (n1 > n2 && n1 > n3) {
+    return n1 }  
+    if (n2 > n1 && n2 > n3) {
+        return n2 
+    } else return n3
+} console.log(largest(6,3,5)) //6 
+ console.log(largest(4, 6, 8))        //returns 8
+console.log(largest(30, 22, 17))    //returns 30
+console.log(largest(41, 108, 86))    //returns 108

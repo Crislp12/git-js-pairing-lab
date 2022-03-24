@@ -61,4 +61,11 @@ function multiplesOfThreeOrFive () {
  
 console.log(isNegative(3)) //returns false
 console.log(isNegative(-2)) // return true 
-console.log(isNegative(Math.PI)) // return false 
+console.log(isNegative(Math.PI)) // return false  
+
+
+function triangleArea(n1, n2) {
+    console.log("Q8 ---")
+ return (n1 * n2) * 1/2
+} console.log(triangleArea(6, 7)) // 21
+console.log(triangleArea(8,8)) // 32 

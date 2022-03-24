@@ -47,3 +47,18 @@ function multiplesOfThreeOrFive () {
     return (n1 + n2 ) * 3
  } 
  console.log(add(5,5)) 
+ 
+ 
+ function isNegative(neg){
+     
+     console.log("---q7---")
+     if (neg < 0){
+         return true;
+     }
+     return false;
+     
+ }
+ 
+console.log(isNegative(3)) //returns false
+console.log(isNegative(-2)) // return true 
+console.log(isNegative(Math.PI)) // return false 

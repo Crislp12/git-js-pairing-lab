@@ -37,4 +37,13 @@ function multiplesOfThreeOrFive () {
      return num * dep
  }
  
- console.log(multiplyBy(6,7))
+ console.log(multiplyBy(6,7)) 
+ 
+ function add(n1, n2) {
+     console.log("Q6 ---")
+    if (n1 !== n2  ) {
+        return (n1 + n2) 
+    } 
+    return (n1 + n2 ) * 3
+ } 
+ console.log(add(5,5)) 

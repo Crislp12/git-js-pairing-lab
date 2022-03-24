@@ -69,3 +69,17 @@ function triangleArea(n1, n2) {
  return (n1 * n2) * 1/2
 } console.log(triangleArea(6, 7)) // 21
 console.log(triangleArea(8,8)) // 32 
+
+
+function betweenTwentyAndFourty(bet){
+    console.log("--q9--")
+    
+    if (bet >= 20 && bet <= 40 ){
+       return true;
+    }
+   return false;
+}
+
+console.log(betweenTwentyAndFourty(30))
+
+

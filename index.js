@@ -96,3 +96,21 @@ function largest(n1, n2, n3) {
  console.log(largest(4, 6, 8))        //returns 8
 console.log(largest(30, 22, 17))    //returns 30
 console.log(largest(41, 108, 86))    //returns 108
+
+
+function printTime (){
+    
+    let time = new Date()
+    
+    return `${time.getHours()}  ${time.getMinutes()} ${time.getSeconds()}`
+    
+}
+console.log(printTime())
+
+function isLeapYear(year){
+    return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
+};
+console.log(isLeapYear(2000))    //returns true
+console.log(isLeapYear(1900))    //returns false
+console.log(isLeapYear(2020))    //returns true
+console.log(isLeapYear(1999))    //returns false
